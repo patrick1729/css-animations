@@ -3,4 +3,4 @@ One of the finest animations by Google in its **Google Pay** app success screen.
 
 ## Preview
 
-![Google pay success](https://user-images.githubusercontent.com/9201182/54543142-22095c80-49c3-11e9-8ab6-caab9f368879.gif)
+![Google pay success](https://user-images.githubusercontent.com/9201182/54586283-99ca9c00-4a42-11e9-8398-0b4fbc175381.gif)
