@@ -1,0 +1,52 @@
+:root {
+    /* CSS variables to change the configuration of animated bullets */
+    --bullet-color: #fff;
+    --bullet-border-color: #fff;
+    --bullet-border-width: 1px;
+    --background-color: #00A4EF;
+    --bullet-size: 25px;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+@keyframes microsoft-loading {
+    from {
+        transform: rotate(0deg) translate(-150px) rotate(0deg);
+        visibility: visible;
+    }
+
+    to {
+        transform: rotate(360deg) translate(-150px) rotate(-360deg);
+    }
+}
+
+.loading div {
+    width: var(--bullet-size);
+    height: var(--bullet-size);
+    visibility: hidden;
+    background-color: var(--bullet-color);
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    border: var(--bullet-border-width) solid var(--bullet-border-color);
+    border-radius: 50%;
+    animation: microsoft-loading 2s 3 cubic-bezier(1.0, 0.7, 0.5, 0.1);
+}
+
+.loading div:nth-child(2) {
+    animation-delay: 200ms
+}
+
+.loading div:nth-child(3) {
+    animation-delay: 400ms
+}
+
+.loading div:nth-child(4) {
+    animation-delay: 600ms
+}
+
+.loading div:nth-child(5) {
+    animation-delay: 800ms
+}
